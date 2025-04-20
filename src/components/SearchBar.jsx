@@ -4,7 +4,7 @@ const SearchBar = ({ onSearch }) => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const handleChange = (e) => {
-    setSearchTerm(e.target.value);
+    setSearchTerm(e.target.);
   };
 
   const handleSubmit = (e) => {
